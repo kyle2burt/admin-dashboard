@@ -16,6 +16,9 @@ body {
     color: #ffffff;
     background-color: #1992d4;
 }
+.sidebar .icon {
+    filter: invert(100%)
+}
 .sidebar .title {
     display: grid;
     grid-template-columns: 50px 1fr;
@@ -34,9 +37,8 @@ body {
 .sidebar ul li {
     font-size: 1.1rem;
 }
-.sidebar img {
-    filter: invert(100%)
-}
 .header {
     grid-column: 2 / 3;
+    display: grid;
+    grid-template: 1fr 1.5fr / 2fr 1fr;
 }
